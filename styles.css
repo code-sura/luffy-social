@@ -115,13 +115,15 @@ main {
 }
 
 .social-link:hover {
-  background-color: #8c6d66;
+  background-color: #ffdad2;
   box-shadow: 2px 4px #b89a93;
   cursor: pointer;
+  color: #22223b;
 }
 
 .social-link:active {
-  transform: translateY(4px);
+  /*transform: translateY(4px);*/
+  transform: scale(1.06);
 }
 
 .social-link a {
