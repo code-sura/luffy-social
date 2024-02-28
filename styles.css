@@ -1,0 +1,129 @@
+/* .comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela round", open-sans;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  position: relative;
+  background-color: #22223b;
+  min-height: 100vh;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 300px;
+  background-color: #4a4e69;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px #161824;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #22223b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio h1 {
+  margin-top: 20px;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.bio h3 {
+  color: #ffe0d9;
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 100;
+}
+
+.bio img {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.bio p {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+
+  text-align: center;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  border-radius: 8px;
+  background-color: #6f7497;
+  margin: 10px;
+  padding: 10px;
+
+  text-align: center;
+  height: 25px;
+  color: #fff;
+
+  font-size: 14px;
+
+  box-shadow: 1.5px 2px #9ea3c9;
+}
+
+.social-link:hover {
+  background-color: #8c6d66;
+  box-shadow: 2px 4px #b89a93;
+  cursor: pointer;
+}
+
+.social-link:active {
+  transform: translateY(4px);
+}
+
+.social-link a {
+  text-decoration: none;
+}
